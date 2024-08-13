@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pdf-youtube"
+version = "0.1.0"
+description = ""
+authors = ["Fabio Cantarim <fabio.cantarim@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+camelot-py = "^0.11.0"
+opencv-python = "^4.9.0.80"
+matplotlib = "^3.8.3"
+ghostscript = "^0.7"
+pandas = "^2.2.2"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.32"
+unidecode = "^1.3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
