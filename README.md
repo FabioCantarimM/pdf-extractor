@@ -56,7 +56,7 @@ O projeto requer as seguintes variáveis de ambiente para configurar o acesso ao
 
 ## Uso
 
-Descreva aqui como usar o projeto, incluindo exemplos de comandos ou código para realizar operações básicas.
+Na pasta src/files/, crie uma subpasta correspondente ao tipo de arquivo que você deseja processar. Em seguida, adicione as regras de extração de dados no arquivo src/configs/rules/notas.py. Caso precise de apoio visual para criar as regras, utilize o arquivo pdf_viz.py para obter uma referência visual da área de extração do arquivo. Após configurar as regras, faça as alterações necessárias no arquivo start.py. Com essas etapas concluídas, o sistema extrairá automaticamente todos os dados dos arquivos na pasta e os salvará no banco de dados
 
 ## Contribuição
 
