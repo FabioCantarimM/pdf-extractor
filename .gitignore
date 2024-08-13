@@ -34,3 +34,5 @@ dist/
 # Ignorar arquivos específicos do sistema operacional
 *.swp
 *.swo
+
+.env
