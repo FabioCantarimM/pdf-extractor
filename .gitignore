@@ -1,2 +1,36 @@
-*.pdf
-.env
+# Ignorar arquivos de compilação do Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar ambientes virtuais
+venv/
+.env/
+env/
+
+# Ignorar arquivos de configuração do IDE
+.idea/
+.vscode/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de banco de dados SQLite
+*.db
+*.sqlite3
+
+# Ignorar arquivos de testes temporários
+*.tmp
+
+# Ignorar arquivos de configuração específicos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos gerados pelo sistema de build
+build/
+dist/
+*.egg-info/
+
+# Ignorar arquivos específicos do sistema operacional
+*.swp
+*.swo
